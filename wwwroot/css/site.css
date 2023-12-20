@@ -1,0 +1,169 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url('../files/Corn.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Century Gothic'
+    
+}
+.table {
+    background: rgba(244, 234, 224, 0.7)
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    z-index: 1;
+   
+}
+header img{
+   
+   
+}
+.navbar-brand {
+    
+    background-repeat: no-repeat;
+    height: 170px;
+    position: absolute;
+    right: 3px;
+    top: -25px;
+    width: 170px;
+    z-index: 3;
+}
+header i {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255,255,255,.8), 0 0 20px rgba(255,255,255,.8), 0 0 22px rgba(255,255,255,.8), 0 0 40px rgba(219,66,217,.8), 0 0 60px rgba(219,66,217,.8), 0 0 80px rgba(219,66,217,.8), 0 0 100px rgba(219,66,217,.5), 0 0 140px rgba(219,66,217,.5), 0 0 200px rgba(219,66,217,.5);
+    animation: neon 3s infinite;
+    animation-timing-function: linear;
+}
+@keyframes neon{
+    0%
+    {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+   50% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    63% {
+        opacity: 0;
+    }
+
+    93% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0;
+    }
+
+    97% {
+        opacity: 1;
+    }
+
+    100%
+    {
+        opacity:1;
+    }
+
+
+}
+
+.btn_helper_CreateNew a {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 30px;
+    color: #000000;
+    text-shadow: 0 0 10px rgba(255,255,255,.8), 0 0 20px rgba(255,255,255,.8), 0 0 22px rgba(255,255,255,.8), 0 0 40px rgba(219,66,217,.8), 0 0 60px rgba(219,66,217,.8), 0 0 80px rgba(219,66,217,.8), 0 0 100px rgba(219,66,217,.5), 0 0 140px rgba(219,66,217,.5), 0 0 200px rgba(219,66,217,.5);
+    animation: neon 4s infinite;
+    animation-timing-function: linear;
+}
+.btn_helpers_Index_Cre_del_edit i {
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 18px;
+    color: #000000;
+    text-shadow: 0 0 10px rgba(255,255,255,.8), 0 0 20px rgba(255,255,255,.8), 0 0 22px rgba(255,255,255,.8), 0 0 40px rgba(219,66,217,.8), 0 0 60px rgba(219,66,217,.8), 0 0 80px rgba(219,66,217,.8), 0 0 100px rgba(219,66,217,.5), 0 0 140px rgba(219,66,217,.5), 0 0 200px rgba(219,66,217,.5);
+}
+.table {
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 18px;
+   
+    text-shadow: 0 0 10px rgba(255,255,255,.9), 0 0 80px rgba(20,66,217,.9)
+}
+.col-md-4 {
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(255 ,255 , 255 , .8) ;
+    height: 700px auto;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 100;
+    font-size: 18px;
+    text-shadow: 0 0 10px rgba(255,255,255,.9), 0 0 80px rgba(20,66,217,.9)
+}
+.col-md-4 div{
+    padding: 7px;
+
+}
+.control-label {
+    font-style: italic;
+}
+.row {
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(255,255, 255, .8);
+    height: 700px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    text-shadow: 0 0 10px rgba(255,255,255,.9), 0 0 80px rgba(20,66,217,.9);
+   
+}
+
+.form-group {
+    margin: 10px;
+}

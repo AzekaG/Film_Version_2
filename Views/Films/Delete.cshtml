@@ -1,0 +1,61 @@
+﻿@model Film_Version_2.Models.Film
+
+@{
+    ViewData["Title"] = "Удаление";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h3>Вы действительно хотите удалить этот фильм?</h3>
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Jenre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Jenre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Producer)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Producer)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Poster)
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="@Model.Poster" style="max-width: 200px ; max-height: 2500px;"/>
+        </dd>
+        <dt>
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Удалить" class="btn btn-danger" />
+                <a asp-action="Index" style="text-decoration:none">Вернуться на главную</a>
+            </form>
+        </dt>
+        
+    </dl>
+
+</div>
